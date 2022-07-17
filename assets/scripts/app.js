@@ -5,6 +5,11 @@ setInterval(function () {
 $(document).ready(function () {
   var currentHour = parseInt(moment().format('H'));
 
+  $('.clearBtn').click(function () {
+    localStorage.clear();
+    window.location.reload();
+  });
+
   $('.saveBtn').on('click', function () {
     var planDesc = $(this).siblings('.textarea-input').val();
     var hourTime = $(this).parents().attr('id');
