@@ -89,13 +89,31 @@ textarea {
 }
 
 .saveBtn:hover {
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(79, 79, 79);
   font-size: 1.7rem;
   transition: all 0.3s ease-in-out;
 }
 
 .saveBtn:focus {
   outline: none;
+}
+
+.custom-clearBtn {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  color: black;
+  background-color: #d3d3d3;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+}
+
+.custom-clearBtn i {
+  padding-left: 5px;
+}
+
+.custom-clearBtn:hover {
+  background-color: #969696;
 }
 
 .custom-legend-tabs {
